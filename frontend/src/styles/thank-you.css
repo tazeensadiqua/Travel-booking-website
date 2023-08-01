@@ -1,0 +1,19 @@
+
+
+.thank__you span i{
+    font-size: 4rem;
+    color:green;
+}
+
+.thank__you h1{
+    font-size: 3.6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.link__text{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: .7;
+
+}
