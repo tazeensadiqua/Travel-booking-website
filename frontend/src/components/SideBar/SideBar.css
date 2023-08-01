@@ -1,0 +1,36 @@
+.admin_menu{
+  display:flex;
+}
+.sidebar{
+    background: rgba(255,255,255,0.06);
+    width:19rem;
+    height:100vh;
+    margin-right: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-right: 1px solid rgba(255,255,255,.3);
+}
+.link{
+    display: flex;
+    font-size: 30px;
+    font-weight: lighter;
+    color:#00b4d8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    opacity:.7;
+    padding: 10px 15px;
+    gap: 25px;
+    text-decoration: none;
+}
+
+.link:hover{
+    
+    color: white;
+    background:black;
+    transition: all 0.5s;
+}
+.active{
+    color: white;
+    background:black;
+}
